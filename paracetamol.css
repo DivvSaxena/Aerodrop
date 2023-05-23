@@ -3089,197 +3089,84 @@ footer {
   }
 
 }
+/**
+  * # Apsara Pencil
+  **/
 
-.img{
-  /* display: flex; */
-  /* flex-wrap: nowrap; */
-  height: 450px;
-  width: auto;
-  border: 2px dotted black;
-  margin-left: 120px;
-  margin-top: 50px;
-}
-
-.conatiner-shoes{
+.first_block{
+  margin: 50px 10px 0px 200px;
   display: flex;
-  /* flex-direction: row; */
-  flex-wrap: nowrap;
-}
-
-.img:hover{
-  height: 480px;
+  justify-content: start;
+  height:550px;
   width: auto;
-  transition: 0.2s;
-  cursor: crosshair;
+  
 }
 
-.nike1{
-  width: 250px;
+.paracetamol{
+  display: flex;
   height: 250px;
-}
-.nike2{
-  height: 280px;
-}
-.nike1:hover{
-  height: 280px;
-  width: 280px;
-  transition: 0.25s;
-}
-
-.nike2:hover{
-  height: 300px;
-  width: 300px;
-  transition: 0.25s;
-  /* box-shadow: 0 0 10px 0.35px; */
-}
-
-
-.nike-container{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 10px;
-}
-
-.nike-container-1{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-
-}
-.para{
-  padding-left:40px ;
-}
-
-
-
-.nike_img{
-  height: 450px;
   width: auto;
+  margin-top: 20px;
+  margin-left: 200px;
+  gap: 15px;
+  
 }
-
-.text{
-  font-size: 80px;
-}
-
-.box{
-  width: 650px;
-}
-
-#heading{
-  padding-top:50px ;
-  padding-left: 40px;
-  /* text-align: center; */
-}
-
-/* Dropdown Button */
-.dropbtn {
-  background-color: #d1d4d3eb;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  border-radius: 5px;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #d1d4d3eb;}
-
-/* .button{
-  background-color: #ddd;
-} */
-
-/* .btn{
-  padding: 5px;
-  padding-left: 40px;
+.paracetamol-effect:hover{
+  height: 270px;
   width: auto;
-} */
-
-.btn{
+  transition: 0.5s;
+}
+.section_pencil{
   display: flex;
-  padding-left: 40px;
-  /* background-color: black; */
-  /* color: #ddd; */
+}
+.head_paracetamol{  
+  padding-top: 90px;
+  padding-left: 25px;
+}
+.section_price_box{
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+  font-size: 30px;
+}
+.price_apsara{
+  color:#ff8f9c;
+}
+.btn{
+  background-color: rgb(194, 194, 194);
+    margin-top: 25px;
+    color: white;
+    border: none;
+    text-align: center;
+    /* height: 42px; */
+    /* width: 115px; */
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px;
+    transition: opacity 0.15s;
+    padding: 5px;
+    /* padding-left: 0px; */
+    /* padding-top: 5px; */
+}
+.btn_ok{
+  background-color: #cbcaca;
+  margin-top: 25px;
+    color: white;
+    border: none;
+    text-align: center;
+    /* height: 42px; */
+    /* width: 115px; */
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px;
+    transition: opacity 0.15s;
+    padding: 5px;
+    /* padding-left: 0px; */
+    /* padding-top: 5px; */
 }
 
-.submit{
-  margin-top:10px ;
-  width: 250px;
-  padding-left: 40px;
-  /* background-color: black; */
-  color: whitesmoke;
-}
-
-.button {
-  border: none;
-  color: rgb(64, 63, 63);
-  padding: 15px;
-  /* padding-left: 90px; */
-  text-align: center;
-  text-decoration: none;
-  /* display: inline-block; */
-  font: bold;
-  margin: 10px;
-  cursor: pointer;
-  background: rgb(233, 229, 229);
-  border-radius: 5px;
-}
-
-.button:hover{
-  background: rgb(42, 41, 41);
-  color: whitesmoke;
-
-}
-
-.para1{
-  width: 500px;
-}
-
-.paragraph{
-  padding-left: 50px;
-}
-
-.head{
-  text-decoration: underline;
-}
-
-a{
-  text-decoration: none;
-  padding-left: 50px;
-  padding-top: 5px;
+.btn_ok:hover{
+  background-color: rgb(191, 184, 184);
   color: black;
-  font-weight: bold;
-}
-
-.map{
-  /* padding-left: 450px; */
-  width: 100%;
+  border: 1px solid black;
 }

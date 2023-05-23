@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aerodrop - eCommerce Website</title>
+      
+        <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+      
+        <link rel="stylesheet" href="./paracetamol.css">
+        <link rel="stylesheet" href="http://127.0.0.1:5500/paracetamol_payment.html">
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+      
+      </head>
+<body>
+    
+      <header>
+        <div class="header-main">
+      
+          <div class="container">
+      
+            <a href="#" class="header-logo">
+              <h1 style="color: black;">Aerodrop</h1>
+            </a>
+      
+            <div class="header-search-container">
+      
+              <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+      
+              <button class="search-btn">
+                <ion-icon name="search-outline"></ion-icon>
+              </button>
+      
+            </div>
+      
+            <div class="header-user-actions">
+      
+              <button class="action-btn">
+                <ion-icon name="person-outline"></ion-icon>
+              </button>
+      
+            </div>
+      
+          </div>
+      
+        </div>
+      
+        <nav class="desktop-navigation-menu">
+      
+          <div class="container">
+      
+            <ul class="desktop-menu-category-list">
+      
+              <li class="menu-category">
+                <a href="#" class="menu-title">Home</a>
+              </li>
+      
+                
+              <li class="menu-category">
+                <a href="#" class="menu-title">Men's</a>
+      
+                <ul class="dropdown-list">
+      
+                  <li class="dropdown-item">
+                    <a href="#">Shirt</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Shorts & Jeans</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Safety Shoes</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Wallet</a>
+                  </li>
+      
+                </ul>
+              </li>
+      
+              <li class="menu-category">
+                <a href="#" class="menu-title">Women's</a>
+      
+                <ul class="dropdown-list">
+      
+                  <li class="dropdown-item">
+                    <a href="#">Dress & Frock</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Earrings</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Necklace</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Makeup Kit</a>
+                  </li>
+      
+                </ul>
+              </li>
+      
+              <li class="menu-category">
+                <a href="#" class="menu-title">Jewelry</a>
+      
+                <ul class="dropdown-list">
+      
+                  <li class="dropdown-item">
+                    <a href="#">Earrings</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Couple Rings</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Necklace</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Bracelets</a>
+                  </li>
+      
+                </ul>
+              </li>
+      
+              <li class="menu-category">
+                <a href="#" class="menu-title">Perfume</a>
+      
+                <ul class="dropdown-list">
+      
+                  <li class="dropdown-item">
+                    <a href="#">Clothes Perfume</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Deodorant</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Flower Fragrance</a>
+                  </li>
+      
+                  <li class="dropdown-item">
+                    <a href="#">Air Freshener</a>
+                  </li>
+      
+                </ul>
+              </li>
+      
+              <li class="menu-category">
+                <a href="#" class="menu-title">Blog</a>
+              </li>
+      
+              <li class="menu-category">
+                <a href="#" class="menu-title">Hot Offers</a>
+              </li>
+      
+            </ul>
+      
+          </div>
+      
+        </nav>
+      
+        <div class="mobile-bottom-navigation">
+      
+          <button class="action-btn" data-mobile-menu-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+      
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+      
+            <span class="count">0</span>
+          </button>
+      
+          <button class="action-btn">
+            <ion-icon name="home-outline"></ion-icon>
+          </button>
+      
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+      
+            <span class="count">0</span>
+          </button>
+      
+          <button class="action-btn" data-mobile-menu-open-btn>
+            <ion-icon name="grid-outline"></ion-icon>
+          </button>
+      
+        </div>
+      
+        <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+      
+          <div class="menu-top">
+            <h2 class="menu-title">Menu</h2>
+      
+            <button class="menu-close-btn" data-mobile-menu-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+      
+          <ul class="mobile-menu-category-list">
+      
+            <li class="menu-category">
+              <a href="#" class="menu-title">Home</a>
+            </li>
+      
+            <li class="menu-category">
+      
+              <button class="accordion-menu" data-accordion-btn>
+                <p class="menu-title">Men's</p>
+      
+                <div>
+                  <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                  <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                </div>
+              </button>
+      
+              <ul class="submenu-category-list" data-accordion>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Shirt</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Shorts & Jeans</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Safety Shoes</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Wallet</a>
+                </li>
+      
+              </ul>
+      
+            </li>
+      
+            <li class="menu-category">
+      
+              <button class="accordion-menu" data-accordion-btn>
+                <p class="menu-title">Women's</p>
+      
+                <div>
+                  <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                  <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                </div>
+              </button>
+      
+              <ul class="submenu-category-list" data-accordion>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Dress & Frock</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Earrings</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Necklace</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Makeup Kit</a>
+                </li>
+      
+              </ul>
+      
+            </li>
+      
+            <li class="menu-category">
+      
+              <button class="accordion-menu" data-accordion-btn>
+                <p class="menu-title">Jewelry</p>
+      
+                <div>
+                  <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                  <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                </div>
+              </button>
+      
+              <ul class="submenu-category-list" data-accordion>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Earrings</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Couple Rings</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Necklace</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Bracelets</a>
+                </li>
+      
+              </ul>
+      
+            </li>
+      
+            <li class="menu-category">
+      
+              <button class="accordion-menu" data-accordion-btn>
+                <p class="menu-title">Perfume</p>
+      
+                <div>
+                  <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                  <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                </div>
+              </button>
+      
+              <ul class="submenu-category-list" data-accordion>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Clothes Perfume</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Deodorant</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Flower Fragrance</a>
+                </li>
+      
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Air Freshener</a>
+                </li>
+      
+              </ul>
+      
+            </li>
+      
+            <li class="menu-category">
+              <a href="#" class="menu-title">Blog</a>
+            </li>
+      
+            <li class="menu-category">
+              <a href="#" class="menu-title">Hot Offers</a>
+            </li>
+      
+          </ul>
+      
+      
+          <div class="menu-bottom">
+      
+            <ul class="menu-category-list">
+      
+              <li class="menu-category"></li>
+      
+              </li>
+      
+              <li class="menu-category">
+                <button class="accordion-menu" data-accordion-btn>
+                  <p class="menu-title">Currency</p>
+                  <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+                </button>
+      
+                
+              </li>
+      
+            </ul>
+      
+            <ul class="menu-social-container">
+      
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+      
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+      
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+      
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+      
+            </ul>
+      
+          </div>
+      
+        </nav>
+      
+      </header>
+      <main>
+        <section>
+          <div class="section_pencil">
+          <img class="first_block" 
+          src="https://5.imimg.com/data5/ANDROID/Default/2022/9/JW/MQ/UO/79326067/product-jpeg-500x500.jpg" alt="Paracetamol"  class="showcase-img">
+          <div class="head_paracetamol">
+          <h1 >Paracetamol</h1>
+          <p>Paracetamol is a commonly used medicine that can help treat pain and reduce a high temperature (fever). It's typically used to relieve mild or moderate pain, such as headaches, toothache or sprains, and reduce fevers caused by illnesses such as colds and flu.</p>  
+      
+          <div class="section_price_box">
+            <p>Price:</p>
+            <p class="price_apsara">₹90.00</p>
+            <del>₹100.00</del>
+          </div>
+      
+          <span>
+          
+          <input onclick="alert('Added to cart')" type="submit" value="Add to Cart" class="btn">
+          <a href="paracetamol_payment.html" target="_blank">
+          <button class="btn_ok">Buy Now</button>
+        </a>
+          </span>
+      
+          </div>
+      
+          </div>
+          <div class="paracetamol">
+            <img class="paracetamol-effect" src="https://5.imimg.com/data5/ANDROID/Default/2022/9/JW/MQ/UO/79326067/product-jpeg-500x500.jpg" alt="apsara_pencil">
+      
+            <img class="paracetamol-effect" src="https://tajlifesciences.com/wp-content/uploads/Paracetamol-500-MG-Tablet-manufcaturer-india-Taj-Life-Sciences-6-scaled.jpg" alt="apsara_pencil">
+      
+            <img class="paracetamol-effect"  src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-58476,resizemode-75,msid-95540811/news/international/us/scientists-issue-warning-over-new-side-effects-of-taking-paracetamol.jpg" alt="apsara_pencil">
+      
+            
+          </div>
+        </section>
+        <br>
+        <footer>
+      
+          <div class="footer-category">
+      
+            <div class="container">
+      
+          <div class="footer-nav">
+      
+            <div class="container">
+      
+              <ul class="footer-nav-list">
+      
+                <li class="footer-nav-item">
+                  <h2 class="nav-title">Popular Categories</h2>
+                </li>
+      
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">Fashion</a>
+                </li>
+      
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">Stationery</a>
+                </li>
+      
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">Health</a>
+                </li>
+      
+              </ul>
+      
+              <ul class="footer-nav-list">
+              
+                <li class="footer-nav-item">
+                  <h2 class="nav-title">Products</h2>
+                </li>
+              
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">Prices drop</a>
+                </li>
+              
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">New products</a>
+                </li>
+              
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">Best sales</a>
+                </li>
+              
+              </ul>
+      
+              <ul class="footer-nav-list">
+              
+                <li class="footer-nav-item">
+                  <h2 class="nav-title">Our Company</h2>
+                </li>
+              
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">Delivery</a>
+                </li>
+              
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">Legal Notice</a>
+                </li>
+              
+                <li class="footer-nav-item">
+                  <a href="#" class="footer-nav-link">Terms and conditions</a>
+                </li>
+              
+              </ul>
+      
+              
+              </ul>
+      
+              <ul class="footer-nav-list">
+      
+                <li class="footer-nav-item">
+                  <h2 class="nav-title">Contact</h2>
+                </li>
+      
+                <li class="footer-nav-item flex">
+                  <div class="icon-box">
+                    <ion-icon name="location-outline"></ion-icon>
+                  </div>
+      
+                  <address class="content">
+                    GCET Boys Hostel, Gautam Buddha Nagar, Greater Noida, U.P.
+                  </address>
+                </li>
+      
+                <li class="footer-nav-item flex">
+                  <div class="icon-box">
+                    <ion-icon name="call-outline"></ion-icon>
+                  </div>
+      
+                  <a href="tel:7068810618" class="footer-nav-link">7068810618</a>
+                </li>
+      
+                <li class="footer-nav-item flex">
+                  <div class="icon-box">
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </div>
+      
+                  <a href="mailto:example@gmail.com" class="footer-nav-link"> raiayush913@gmail.com</a>
+                </li>
+      
+              </ul>
+      
+              <ul class="footer-nav-list">
+      
+                <li class="footer-nav-item">
+                  <h2 class="nav-title">Follow Us</h2>
+                </li>
+      
+                <li>
+                  <ul class="social-link">
+      
+                    <li class="footer-nav-item">
+                      <a href="#" class="footer-nav-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </a>
+                    </li>
+      
+                    <li class="footer-nav-item">
+                      <a href="#" class="footer-nav-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a>
+                    </li>
+      
+                    <li class="footer-nav-item">
+                      <a href="#" class="footer-nav-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                      </a>
+                    </li>
+      
+                    <li class="footer-nav-item">
+                      <a href="#" class="footer-nav-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                      </a>
+                    </li>
+      
+                  </ul>
+                </li>
+      
+              </ul>
+      
+            </div>
+      
+          </div>
+      
+          <div class="footer-bottom">
+      
+            <div class="container">
+      
+              <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+      
+              <p class="copyright">
+                Copyright &copy; <a href="#">AeroDrop</a> |  Made By Ayush Kumar Rai along with Divv Saxena and Samar Pratap Singh
+              </p>
+      
+            </div>
+      
+          </div>
+      
+        </footer>
+      </main>
+</body>
+</html>

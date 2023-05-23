@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Order This Combo of Old Spice</title>
+    <link rel="stylesheet" href="det.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/paracetamol-payment.css">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Delivery Details Of your Order</div>
+    <div class="content">
+
+
+      <form action="connect.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required id="fullname" name="fullname">
+          </div>
+          
+          
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required id="number" name="number">
+          </div>
+          
+          <div class="input-box">
+            <span class="details">Your Address</span>
+            <input type="text" placeholder="Enter your Address" required id="address" name="address">
+          </div>
+          <div class="input-box">
+            <span class="details">E- Mail Address</span>
+            <input type="text" placeholder="Enter your email" required id="email" name="email">
+          </div>
+        </div>
+        <div class="p-details">
+          <input type="radio" name="p" id="dot-1" name="dot-1" value="Credit/Debit Card Oldspice 3 Combo Order">
+          <input type="radio" name="p" id="dot-2" name="dot-2" value="UPI Oldspice 3 Combo Order">
+          <input type="radio" name="p" id="dot-3" name="dot-3" value="COD Oldspice 3 Combo Order">
+          <span class="gender-title">Payment Method</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="pay">Credit Card/ Debit Card</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="pay">UPI</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="pay">Cash on Delivery</span>
+            </label>
+          </div>
+        </div>
+        
+        <div class="button">
+          <input type="submit" value="Order Now">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

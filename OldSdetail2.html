@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Order This Bunch of Apsarsa Pencil x6</title>
+    <link rel="stylesheet" href="det.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+      body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-image: url("https://media.giphy.com/media/YWUvOugDNUBS0MTqkv/giphy-downsized-large.gif");}
+
+    </style>
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Delivery Details for Apsarsa Pencil x6</div>
+    <div class="content">
+
+
+      <form action="connect.php" method="post">
+       <br>
+      <br>
+       name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name">
+        <br><br>
+       number :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="number">
+        <br><br>
+       address : &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address">
+        <br>
+        <br><br>
+        <div class="p-details">
+          payment: <input type="radio" name="payment" id="dot-1" name="dot-1" value="Card Apsara">
+          <input type="radio" name="payment"  id="dot-2" name="dot-2" value="UPI Apsara">
+          <input type="radio" name="payment" id="dot-3" name="dot-3" value="COD Apsara">
+          
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="pay">Credit Card/ Debit Card</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="pay">UPI</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="pay">Cash on Delivery</span>
+            </label>
+          </div>
+        </div>
+        
+        <div class="button">
+          <input type="submit" value="Buy Now">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
